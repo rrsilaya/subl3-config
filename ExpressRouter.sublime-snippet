@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+router.$1('$2', async (req, res) => {
+  try {
+    $3
+  } catch (status) {
+    $4
+  }
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <tabTrigger>router</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>source.js</scope>
+  <definition>Express Router</definition>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+let message = '';
+
+switch (status) {
+  case $2:
+    message = '$3';
+    break;
+  case 500:
+    message = 'Internal server error while $1';
+    break;
+}
+
+res.status(status).json({ status, message });
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <tabTrigger>err</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js</scope>
+  <definition>Server Error</definition>
+</snippet>

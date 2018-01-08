@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+import { connect } from 'react-redux';
+import ${TM_FILENAME/(\w+)Container\.js/\1/g} from './${TM_FILENAME/(\w+)Container\.js/\1/g}';
+
+const mapStateToProps = state => {
+	return {
+		$1
+	}
+};
+
+const mapDispatchToProps = dispatch => {
+	return {
+		$2
+	}
+};
+
+const ${TM_FILENAME/(\w+)\.js/\1/g} = connect(mapStateToProps, mapDispatchToProps)(${TM_FILENAME/(\w+)Container\.js/\1/g});
+export default ${TM_FILENAME/(\w+)\.js/\1/g};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<tabTrigger>redux.smart</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<definition>React Redux Container Component</definition>
+</snippet>

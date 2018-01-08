@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+DROP PROCEDURE IF EXISTS $1;
+DELIMITER \$\$
+CREATE PROCEDURE $1 (
+  IN $2)
+BEGIN
+
+END;
+\$\$
+DELIMITER ;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <tabTrigger>procedure</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>source.sql</scope>
+  <definition>SQL Procedure</definition>
+</snippet>

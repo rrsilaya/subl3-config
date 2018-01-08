@@ -1,0 +1,9 @@
+{
+  "prettier_cli_path": "/home/rrsilaya/.yarn/bin/prettier",
+  "node_path": "/usr/bin/node",
+  "prettier_options": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "jsxBracketSameLine": true,
+  }
+}

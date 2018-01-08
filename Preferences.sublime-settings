@@ -1,0 +1,36 @@
+{
+	"binary_file_patterns":
+	[
+		".svn/",
+		".git/",
+		"node_modules/",
+		"bower_components/"
+	],
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
+	"font_face": "Inconsolata",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"CSS",
+		"Markdown",
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		".svn/",
+		".git/",
+		"node_modules/",
+		"bower_components/"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"tab_size": 2,
+	"theme": "Boxy Monokai.sublime-theme",
+	"theme_accent_cyan": true,
+	"theme_bar_margin_top_sm": true,
+	"theme_icons_materialized": true,
+	"theme_scrollbar_colored": true,
+	"theme_scrollbar_rounded": true,
+	"theme_scrollbar_semi_overlayed": true,
+	"translate_tabs_to_spaces": true
+}

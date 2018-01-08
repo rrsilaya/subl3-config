@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+// Action Types
+
+// Action Creators
+
+// Initial State
+const initialState = {
+	$1
+};
+
+const reducer = (state = initialState, action) => {
+	const { type, payload } = action;
+
+	switch (type) {
+		$2
+
+		default:
+			return state;
+	}
+}
+
+export default reducer;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<tabTrigger>dux</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<definition>Redux Duck Boilerplate</definition>
+</snippet>

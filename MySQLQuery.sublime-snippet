@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+db.query(query, ${1:values}, (err, ${2:rows}) => {
+	if (err) {
+		console.log(err.message);
+		return reject(500);
+	}
+  
+  return resolve($3);
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <tabTrigger>db</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>source.js meta.group.braces.curly.js meta.group.braces.round.js meta.group.braces.curly.js</scope>
+  <definition>MySQL Query</definition>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+import React, { Component } from 'react';
+
+class ${TM_FILENAME/(\w+)\.js/\1/g} extends Component {
+	render() {
+		return (
+			$2
+		);
+	}
+}
+
+export default ${TM_FILENAME/(\w+)\.js/\1/g};
+]]></content>
+	<tabTrigger>react</tabTrigger>
+	<description>React Component Boilerplate</description>
+</snippet>

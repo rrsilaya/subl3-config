@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+mov eax, 4
+mov ebx, 1
+mov ecx, $1
+mov edx, $2
+int 80h
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<tabTrigger>stdout</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<scope>source.assembly</scope>
+	<definition>NASM Output Sequence</definition>
+</snippet>

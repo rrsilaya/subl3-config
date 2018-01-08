@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<h1 align="center">
+	<img src="$1" alt="icon" height="256px" />
+	<br/>
+	$2
+	<br/>
+	<img src="https://img.shields.io/badge/$3-$4-yellow.svg" />
+	<br/>
+</h1>
+<h4 align="center">$5</h4>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<tabTrigger>header</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<scope>text.html.markdown.gfm</scope>
+	<definition>README.md Header</definition>
+</snippet>

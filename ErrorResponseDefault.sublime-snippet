@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+res.status(status).json({ status, message: 'Internal server error while $1' });
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <tabTrigger>err500</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js</scope>
+  <definition>Error 500 Response</definition>
+</snippet>

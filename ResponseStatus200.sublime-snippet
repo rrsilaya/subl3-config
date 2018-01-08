@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+res.status(200).json({
+  status: 200,
+  message: 'Successfully fetched $1',
+  data: $2
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <tabTrigger>res200</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <definition>Response Status 200 OK</definition>
+</snippet>

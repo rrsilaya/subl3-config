@@ -1,0 +1,33 @@
+[
+	{ "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+      [
+          { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+          { "match_all": true, "key": "selection_empty" },
+          { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+          { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+          { "match_all": true, "key": "is_abbreviation" }
+      ]
+  },
+  { "keys": ["ctrl+tab"], "command": "next_view" },
+  { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+  { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+  { "keys": ["ctrl+shift+l"], "command": "insert_snippet", "args": { "name": "Packages/XML/Snippets/long-tag.sublime-snippet" } },
+  { "keys": ["ctrl+\\"], "command": "toggle_side_bar" },
+  {
+        "keys": [
+            "shift+ctrl+h"
+        ], 
+        "args": {
+            "action": "split_join_tag"
+        }, 
+        "command": "run_emmet_action", 
+        "context": [
+            {
+                "key": "emmet_action_enabled.split_join_tag"
+            }
+        ]
+    }, 
+  { "keys": ["ctrl+k", "ctrl+i"], "command": "title_case" }
+]
