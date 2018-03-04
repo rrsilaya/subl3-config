@@ -1,5 +1,5 @@
 {
-  "prettier_cli_path": "/home/rrsilaya/.yarn/bin/prettier",
+  "prettier_cli_path": "/home/rrsilaya/.node/bin/prettier",
   "node_path": "/usr/bin/node",
   "prettier_options": {
     "printWidth": 100,
