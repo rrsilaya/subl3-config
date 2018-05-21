@@ -7,12 +7,14 @@
 		"bower_components/"
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
-	"font_face": "Inconsolata",
-	"font_size": 11,
+	"font_face": "Dank Mono",
+	"font_size": 10.5,
 	"ignored_packages":
 	[
 		"CSS",
 		"Markdown",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
 		"Vintage"
 	],
 	"index_exclude_patterns":
@@ -32,5 +34,6 @@
 	"theme_scrollbar_colored": true,
 	"theme_scrollbar_rounded": true,
 	"theme_scrollbar_semi_overlayed": true,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"update_check": false
 }
