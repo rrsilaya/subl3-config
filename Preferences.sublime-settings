@@ -8,7 +8,7 @@
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
 	"font_face": "Dank Mono",
-	"font_size": 10.5,
+	"font_size": 9.5,
 	"ignored_packages":
 	[
 		"CSS",
