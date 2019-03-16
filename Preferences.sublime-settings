@@ -6,7 +6,7 @@
 		"node_modules/",
 		"bower_components/"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
+	"color_scheme": "Packages/Babel/Monokai Phoenix.tmTheme",
 	"font_face": "Dank Mono",
 	"font_size": 9.5,
 	"ignored_packages":
@@ -24,8 +24,8 @@
 		"node_modules/",
 		"bower_components/"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 	"tab_size": 2,
 	"theme": "Boxy Monokai.sublime-theme",
 	"theme_accent_cyan": true,
